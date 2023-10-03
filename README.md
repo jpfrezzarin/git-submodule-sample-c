@@ -18,7 +18,7 @@ git submodule sync --recursive
 
 This will syncronize the submodules URL with the same method used in root repository (ssh or https).
 
- - The ```--recursive``` flag is to syncronize the submodules recursively (if the submodules has another submodule 👌)
+ - The ```--recursive``` flag is to syncronize the submodules recursively
 
 After, execute the command bellow to update the submodule:
 
