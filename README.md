@@ -1,6 +1,14 @@
 # git submodules sample
 
-A sample repository to shows the git submodule feature 
+A sample repository to shows the git submodule feature
+
+The repositories connects like the diagram bellow:
+
+```
+sample-c --> sample-b --> sample-a
+```
+- The **sample-c** repository has a submodule, **sample-b**
+- The **sample-b** repository has another submodule, **sample-a**
 
 After clone, execute the following commands in terminal:
 
